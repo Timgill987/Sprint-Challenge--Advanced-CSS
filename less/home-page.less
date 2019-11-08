@@ -79,7 +79,7 @@
 
       p {
         margin-bottom: 26px;
-        @media @phone{
+        @media @phone {
           padding-left: 4%;
         }
       }
@@ -99,10 +99,7 @@
     }
   }
 }
-.btn:hover {
-  background-color: #f6f7f8;
-  color: #22283a;
-}
+
 // home
 
 .btn {
@@ -112,7 +109,12 @@
   text-align: center;
   padding-top: 2%;
   border-radius: 5px;
+  &:hover {
+    background-color: #f6f7f8;
+    color: #22283a;
 
+    .parabutton(background-color #22283a, color #f6f7f8);
+  }
   .parabutton();
   @media @phone {
     width: 100%;
