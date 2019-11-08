@@ -304,10 +304,6 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-.btn:hover {
-  background-color: #f6f7f8;
-  color: #22283a;
-}
 .btn {
   width: 30%;
   height: 12%;
@@ -317,6 +313,12 @@ footer {
   border-radius: 5px;
   background-color: #22283A;
   color: #F6F7F8;
+}
+.btn:hover {
+  background-color: #f6f7f8;
+  color: #22283a;
+  background-color: background-color #22283a;
+  color: color #f6f7f8;
 }
 @media (max-width: 500px) {
   .btn {
